@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Cookie Clicker</title>
+</head>
+<body>
+<script src="./assets/javascript/objetos.js"></script>
+<div class="tela">
+   <div class="container-cookie">
+        <h1>Confeitaria de biscoitos</h1>
+        <h2 class="contador-cookie" id="n-cookies">0 Cookies</h2>
+        <span class="cookie-segundo" id="cookie-segundo-js">por segundo: 0.0</span>
+        <img src="./imgs/cookie.png" alt="biscoito" id="cookie-img" onclick="incrementa()" class="scale-down-center">
+    </div> 
+
+
+    <div class="painel-bonus">
+        <div class="bonus-item" onclick="compraBonus()">
+                <div class="item1">
+                    <img src="./imgs/favpng_computer-mouse-pointer-cursor-icon.png">
+                    <p id="titulo-bonus">Cursor</p>
+                </div>
+                <div class="item1">
+                    <img src="./imgs/cookie.png" id="cookie-icon">
+                    <p id="valor-bonus-clicker">15</p>
+                </div>
+        </div>
+        
+    </div>
+
+</div>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
